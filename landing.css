@@ -307,6 +307,7 @@
     font-size: 40px;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-top: 20px;
 }
 
@@ -431,9 +432,10 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .recipe-container {
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
 }
 
